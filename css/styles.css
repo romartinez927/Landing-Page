@@ -1,0 +1,63 @@
+* {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+p {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 37px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 37px;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.bg-dark-green {
+    background-color: #162317;
+}
+
+.bg-section-two {
+    background: url(../img/bg-img.png);
+}
+
+.bg-section-three {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/bg-img2.png);
+    background-size: cover;
+
+}
+
+.text-orange {
+    color: #c69256
+}
+
+.padding-section-three {
+    padding: 13em 0
+}
+
+.btn-light {
+    background-color: #c69256;
+    border: none;
+    width: max-content;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+@media (max-width: 999px) {
+    .section-one div img {
+        display: none;
+    }
+    .section-one div div {
+        width: 100%;
+    }
+}
